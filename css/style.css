@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+header {
+  width: 100vw;
+  height: 3.25rem;
+  background-color: #C2C800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .c-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60rem;
+  height: 3.25rem;
+}
+
+header .c-header .icon a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 2.75rem;
+  height: 3.25rem;
+  color: #FFFFFF;
+}
+
+header .c-header i {
+  font-size: 1.25rem;
+}
+
+header .c-header .logo h2 {
+  font-family: 'Style Script', cursive;
+  font-size: 40px;
+  color: #fff;
+  margin-left: 0.9375rem;
+  font-weight: 100;
+}
+
+header .c-header .input input {
+  width: 32.8125rem;
+  height: 2.1875rem;
+  border-radius: 20px;
+  border: none;
+  margin-left: 4.125rem;
+  outline: none;
+}
+
+header .c-header .textoEnviarEntrar {
+  margin: 0.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.25rem;
+}
+
+header .c-header .textoEnviarEntrar:hover {
+  background-color: #d0d302;
+}
+
+header .c-header .textoEnviarEntrar a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+header .c-header .enviar {
+  margin-left: 3.125rem;
+}
+
+main {
+  margin-top: 28px;
+  margin: 0 auto;
+  width: 65.625rem;
+}
+
+main nav {
+  margin: 1.5625rem 0;
+}
+
+main nav ul li {
+  display: inline;
+}
+
+main nav ul li a {
+  border: solid 1px #eee8e8;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px;
+  margin-right: 0.625rem;
+  border-radius: 30px;
+  color: #424242;
+}
+
+main nav ul li a:hover {
+  background-color: #eee;
+}
+
+main .banner img {
+  width: 100%;
+}
+
+.section_cards h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  padding: 16px 16px 16px 0;
+  margin: 8px 8px 8px 0;
+  color: #C2C800;
+}
+
+.container_cardsGrande {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (14.375rem)[4];
+      grid-template-columns: repeat(4, 14.375rem);
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1875rem;
+  font-weight: 700;
+  padding: 7px 7px 7px 0;
+  color: #111;
+}
+
+.card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8125rem;
+  color: #666;
+  margin-top: 0.3125rem;
+}
+
+.card img {
+  margin: 0 auto;
+  width: 14rem;
+  height: 7.875rem;
+  border-radius: 10px;
+}
+
+.card
+.cards_pequenos h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  padding: 16px 16px 16px 0;
+  margin: 8px 8px 8px 0;
+  color: #C2C800;
+}
+
+.card_p img {
+  width: 10.875rem;
+  height: 6.125rem;
+  border-radius: 10px;
+}
+
+.container_cards_pequenos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (10.9375rem)[5];
+      grid-template-columns: repeat(5, 10.9375rem);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 1px #eee8e8;
+  margin-bottom: 2.5rem;
+}
+
+.container_cards_pequenos h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 7px 7px 7px 0;
+  color: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

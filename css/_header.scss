@@ -1,0 +1,71 @@
+
+header {
+    width: 100vw;
+    height: rem(52);
+    background-color: #C2C800;
+    display: flex;
+    justify-content: center;
+
+    .c-header {
+        display: flex;
+        align-items: center;
+        width: rem(960);
+        height: rem(52);
+    //    background-color: aquamarine;
+
+        .icon a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: rem(44);
+            height: rem(52);
+            color: #FFFFFF;
+        }
+
+        & i {
+            font-size: rem(20);
+        }
+
+        .logo h2 {
+            font-family: 'Style Script', cursive;
+            font-size: 40px;
+            color: #fff;
+            margin-left: rem(15);
+            font-weight: 100;
+        }
+
+        .input input {
+            width: rem(525);
+            height: rem(35);
+            border-radius: 20px;
+            border: none;
+            margin-left: rem(66);
+            outline: none;
+        }
+
+        .textoEnviarEntrar{
+            margin: rem(5);
+            display: flex;
+            align-items: center;
+            height: rem(52);
+            &:hover {
+                background-color: #d0d302;
+            }
+        }
+
+        .textoEnviarEntrar a {
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            font-size: 15px;
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        .enviar {
+            margin-left: rem(50);
+        }
+
+    }
+}
+

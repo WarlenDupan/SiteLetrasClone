@@ -1,0 +1,128 @@
+main {
+    margin-top: 28px;
+    margin: 0 auto;
+    width: rem(1050);
+
+    nav {
+        margin: rem(25) 0;
+    }
+
+    nav ul li{
+        display: inline;
+        a{
+            // background-color: cadetblue;
+            border: solid 1px rgb(238, 232, 232);
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 600;
+            padding:  8px;
+            margin-right: rem(10);
+            border-radius: 30px;
+            color: #424242;
+
+            &:hover {
+                background-color: #eee;
+                
+            }
+        }
+    }
+
+
+
+    .banner img {
+        width: 100%;
+    }
+}
+
+// SECTION CARDS GRANDES
+
+.section_cards h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem(23);
+    text-transform: uppercase;
+    letter-spacing: rem(1);
+    padding: 16px 16px 16px 0;
+    margin: 8px 8px 8px 0;
+    color: #C2C800;
+}
+
+.container_cardsGrande{
+    display: grid;
+    grid-template-columns:  repeat(4, rem(230));
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.card {
+    // width: rem(230);
+    // border: solid 1px;
+    margin-bottom: 10px;
+
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: rem(19);
+        font-weight: 700;
+        padding: 7px 7px 7px 0;
+        color: #111;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: rem(13);
+        color: #666;
+        margin-top: rem(5);
+    }
+
+    img {
+        margin: 0 auto;
+        width: rem(224);
+        height: rem(126);
+        border-radius: 10px;
+    }
+}
+
+.card 
+
+// SECTION CARDS GRANDES
+
+
+
+
+
+// SECTION CARDS PEQUENOS  
+
+.cards_pequenos h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem(23);
+    text-transform: uppercase;
+    letter-spacing: rem(1);
+    padding: 16px 16px 16px 0;
+    margin: 8px 8px 8px 0;
+    color: #C2C800;
+}
+
+.card_p img {
+    width: rem(174);
+    height: rem(98);
+    border-radius: 10px;
+}
+
+.container_cards_pequenos {
+    display: grid;
+    grid-template-columns: repeat(5, rem(175));
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(238, 232, 232);
+    margin-bottom: rem(40);
+
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: rem(16);
+        font-weight: 700;
+        padding: 7px 7px 7px 0;
+        color: #111;
+    }
+}
+
+
+// SECTION CARDS PEQUENOS  
+
